@@ -4,9 +4,9 @@
 echo "<h1>hello world (php)</h1>";
 
 $host = 'db';
-$user = 'root';
-$password = 'root';
-$db_name = 'mysql';
+$user = 'devuser';
+$password = 'devpwd';
+$db_name = 'dbdev';
 
 $dbh = new PDO('mysql:host='.$host.';dbname='.$db_name, $user, $password);
 
