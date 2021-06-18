@@ -13,5 +13,5 @@ chmod +x ./start.sh
 chmod +x ./stop.sh
 
 if [ ! -f ./index.php ]; then
-    echo "<?php 'Hello World';" > index.php
+    wget https://raw.githubusercontent.com/shenron/php-mariadb-startup/master/src/index.php
 fi
